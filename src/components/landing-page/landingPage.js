@@ -15,10 +15,14 @@ export default function LandingPage() {
           Please click the button here to download your APK and get started
         </div>
         <div className="w-full flex items-center justify-center">
-          <button className="px-4 py-1 bg-blue-500 text-white rounded-xl flex flex-row gap-2 items-center">
+          <a
+            href="/apk/opiniondad.apk"
+            download="opiniondad.apk"
+            className="px-4 py-1 bg-blue-500 text-white rounded-xl flex flex-row gap-2 items-center"
+          >
             Download here
             <BsDownload color="white"></BsDownload>
-          </button>
+          </a>
         </div>
       </div>
     </div>
