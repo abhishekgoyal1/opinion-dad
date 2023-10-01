@@ -8,11 +8,15 @@ export default function HeadFormat({ title }) {
       <link rel="icon" type="image/png" sizes="32x32" href="/images/logo.png" />
       <link rel="icon" type="image/png" sizes="16x16" href="/images/logo.png" />
       <title>{title}</title>
-      <meta name="description" content="Opinion Dad" key="desc" />
+      <meta
+        name="description"
+        content="Opinion Dad App is to provide a simple and easy to use tool for users to get opinions of specific group members consisting of relatives, friends or other App users"
+        key="desc"
+      />
       <meta property="og:title" content={title} />
       <meta
         property="og:description"
-        content="Opiniondad App provides a simple and easy to use tool for users to get opinions of specific group members consisting of relatives, friends or other App users."
+        content="Opinion Dad App provides a simple and easy to use tool for users to get opinions of specific group members consisting of relatives, friends or other App users."
       />
       <meta
         property="og:image"
