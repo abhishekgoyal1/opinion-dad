@@ -10,8 +10,8 @@ export default function LandingPage() {
         <Image src={logoImage} width={100} height={100} priority />
       </div>
       <div className="font-normal text-2xl">Welcome to Opinion Dad!</div>
-      <div className="font-normal text-lg text-center flex flex-col gap-4">
-        <div>
+      <div className="font-normal text-lg text-center flex flex-col items-center gap-4">
+        <div className="w-3/4">
           Please click the button here to download your APK and get started
         </div>
         <div className="w-full flex items-center justify-center">
