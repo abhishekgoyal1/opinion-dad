@@ -10,7 +10,10 @@ export default function HeadFormat({ title }) {
       <title>{title}</title>
       <meta name="description" content="Opinion Dad" key="desc" />
       <meta property="og:title" content={title} />
-      <meta property="og:description" content="Opinion Dad" />
+      <meta
+        property="og:description"
+        content="Opiniondad App provides a simple and easy to use tool for users to get opinions of specific group members consisting of relatives, friends or other App users."
+      />
       <meta
         property="og:image"
         content="https://res.cloudinary.com/duvfyf4rw/image/upload/v1696177239/opinoin-dad-logo-hd_hq6poe.png"
