@@ -20,7 +20,7 @@ export default function HeadFormat({ title }) {
       />
       <meta
         property="og:image"
-        content="https://res.cloudinary.com/duvfyf4rw/image/upload/v1696177239/opinoin-dad-logo-hd_hq6poe.png"
+        content="https://res.cloudinary.com/duvfyf4rw/image/upload/v1696180277/opinion-dad-og-image_diw1uq.png"
       />
     </Head>
   );
