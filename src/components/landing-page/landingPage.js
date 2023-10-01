@@ -65,7 +65,7 @@ function AboutSection() {
     persons having experience in specific field etc.`;
 
   return (
-    <div className="flex flex-col items-center justify-center text-center gap-2 mt-4">
+    <div className="flex flex-col items-center justify-center text-center gap-2 mt-4 w-full">
       <button
         onClick={onClick}
         className="text-lg flex flex-row items-center gap-2 text-white bg-blue-500 px-2 py-1 rounded-lg"
